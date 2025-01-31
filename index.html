@@ -1,0 +1,188 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Ahmad Khan's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Ahmad Khan" style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem;">MUHAMMAD AHMAD KHAN</h1>
+            <p class="title">AI/ML Engineer | Web Developer</p>
+            <p class="typing-text">Build, Inspire, Repeat!</p>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-text"></span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="bio">
+                <p>  
+                    I'm Muhammad Ahmad Khan, an AI and Web Developer with a passion for building smart, adaptable systems. As a fresh A-Level graduate, I've honed my skills in AI-driven applications, from RAG-based chatbots to voice agents and automation tools. My expertise lies in leveraging open-source technologies to create efficient, scalable solutions that push the limits of what AI can do.  
+                    
+                    Beyond development, I explore hardware optimization for AI workloads and the intersection of technology and problem-solving. I believe in building solutions that don't just work—they evolve, adapt, and set new standards.</p>
+                <p class="status"></p>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <div class="skill-item" data-skill="Python">
+                    <div class="skill-name">Python</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%; background-color: #6ed1dcde;"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="Web Dev">
+                    <div class="skill-name">Web Dev</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 65%; background-color: #6ed1dcde;"></div>
+                    </div>
+                </div>
+                <h3>Creative Skills</h3>
+                <div class="skill-item" data-skill="Writing">
+                    <div class="skill-name">Storytelling</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%; background-color: #ff38b9c1;"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="Writing">
+                    <div class="skill-name">Creative Writing</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%; background-color: #ff38b9c1;"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="Writing">
+                    <div class="skill-name">Content Writing</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%; background-color: #ff38b9c1;"></div>
+                    </div>
+                </div>
+                <h3>Sports</h3>
+                <div class="skill-item">
+                    <div class="skill-name">Horse Riding</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%; background-color: #f73d43d3;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Tennis</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%; background-color: #f73d43d3;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Volleyball</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%; background-color: #f73d43d3;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Video Games</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%; background-color: #f73d43d3;"></div>
+                    </div>
+                </div>
+                <h3>Cognative</h3>
+                <div class="skill-item">
+                    <div class="skill-name">Reading</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%; background-color: #3df749a4;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Chess</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 65%; background-color: #3df749a4;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>RAG Based Chatbot</h3>
+                    <p>A Chatbot that uses RAG - Retrieval Augmented Generation to answer questions, based on the data you give it. (Specifically by feeding it a PDF). Steamlit was used as the UI for this project</p>
+                    <div class="project-tech" style="margin-top: 20px;">
+                        <span style="font-weight: bold; margin-right: 10px;">Python</span>
+                        <span style="font-weight: bold; margin-right: 10px;">PyTorch</span>
+                        <span style="font-weight: bold; margin-right: 10px;">Streamlit</span>
+                        <span style="font-weight: bold; margin-right: 10px;">HuggingFace-Transformers</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>AI Voice Bot</h3>
+                    <p>A voice bot made using Livekit</p>
+                    <div class="project-tech" style="margin-top: 20px;">
+                        <span style="font-weight: bold; margin-right: 10px;">Livekit</span>
+                        <span style="font-weight: bold; margin-right: 10px;">Python</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>AI Instagram Caption Generator</h3>
+                    <p>The project when given an image, it generates a caption for the image using a pre-trained model</p>
+                    <div class="project-tech" style="margin-top: 20px;">
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>More on GitHub</h3>
+                    <p>Additional projects and contributions can be found on my GitHub profile</p>
+                    <div class="project-tech" style="margin-top: 20px;">
+                        <a href="https://github.com/HadesXecutioner" target="_blank">
+                            <span style="font-weight: bold; margin-right: 10px;">View More</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <a href="tel:+923134562927" class="contact-link" title="+92 3134562927">
+                <i class="fas fa-phone fa-lg"></i>
+            </a>
+            <a href="https://github.com/HadesXecutioner" class="contact-link" target="_blank" title="GitHub">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+            <a href="mailto:hadesxecutioner@gmail.com" class="contact-link" title="HadesXecutioner@gmail.com">
+                <i class="fas fa-envelope fa-lg"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Muhammad Ahmad Khan.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
